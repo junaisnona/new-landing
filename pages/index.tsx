@@ -1,12 +1,13 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Banner from '../components/Banner/Banner'
-import ExploreMarketplace from '../components/ExploreMarketplace/ExploreMarketplace'
-import Features from '../components/Features/Features'
-import Header from '../components/Header/Header'
-import TrustedCompanies from '../components/TrustedCompanies/TrustedCompanies'
-import styles from '../styles/Home.module.css'
+import Advantages from '../components/Landing/Advantages/Advantages'
+import Banner from '../components/Landing/Banner/Banner'
+import ContactUs from '../components/Landing/Contact/ContactUs'
+import ExploreMarketplace from '../components/Landing/ExploreMarketplace/ExploreMarketplace'
+import Features from '../components/General/Features/Features'
+import Footer from '../components/General/Footer/Footer'
+import Info from '../components/Landing/Info/Info'
+import Procedures from '../components/General/Procedures/Procedures'
+import TrustedCompanies from '../components/Landing/TrustedCompanies/TrustedCompanies'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,11 @@ const Home: NextPage = () => {
     <TrustedCompanies />
     <ExploreMarketplace />
     <Features />
+    <Advantages />
+    <Info />
+    <ContactUs />
+    <Procedures />
+    {/* <Footer /> */}
     </>
   )
 }

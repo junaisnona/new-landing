@@ -8,7 +8,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('./@tailwindcss/plugins/header'),
     require('./@tailwindcss/plugins/font'),
     require('./@tailwindcss/plugins/button')
   ],
